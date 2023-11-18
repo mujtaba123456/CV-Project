@@ -1,11 +1,11 @@
 import "./cvstyles.css";
-
+import pic from "./prphoto.jpeg"
 function Cv() {
   return (
     <div className="All">
       
       <div className="Top">
-        <img src="./prphoto.jpeg" alt="Mujtaba,s Photo" />
+        <img src={pic} alt="Mujtaba,s Photo" />
         <h1>Mujtaba Shahzad</h1>
       </div>
       <div className="body">
