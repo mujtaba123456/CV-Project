@@ -1,5 +1,5 @@
 import "./cvstyles.css";
-import pic from "./prphoto.jpeg"
+import pic from "../prphoto.jpeg"
 function Cv() {
   return (
     <div className="All">
